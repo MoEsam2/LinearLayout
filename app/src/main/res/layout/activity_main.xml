@@ -11,8 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="@color/cardBackground"
+        android:background="@drawable/card_background"
         android:orientation="horizontal"
+
         android:paddingLeft="@dimen/small_125"
         android:paddingTop="@dimen/small_125"
         android:paddingRight="@dimen/small_100"
