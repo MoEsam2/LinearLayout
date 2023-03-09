@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="328dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="@color/cardBackground"
@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/dm_sans_bold"
-                android:paddingBottom="@dimen/small_100"
+                android:layout_marginBottom="@dimen/small_100"
                 android:text="Ahmed hassan"
                 android:textColor="@color/black"
                 android:textSize="@dimen/textLarge" />
@@ -45,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/dm_sans_medium"
-                android:paddingBottom="@dimen/small_100"
+                android:layout_marginBottom="@dimen/small_100"
                 android:text="Engineer"
                 android:textColor="@color/darkerBlue"
                 android:textSize="@dimen/textNormal" />
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/baseline_location_on_24"
                 android:fontFamily="@font/dm_sans_medium"
-                android:paddingBottom="@dimen/small_100"
+                android:layout_marginBottom="@dimen/small_100"
                 android:text="UK "
                 android:textColor="@color/textGray"
                 android:textSize="@dimen/textNormal" />
@@ -110,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:fontFamily="@font/dm_sans_medium"
-                android:paddingTop="@dimen/small_100"
+                android:layout_marginTop="@dimen/small_100"
                 android:text="Russian"
                 android:textColor="@color/darkerBlue"
                 android:textSize="@dimen/textNormal" />
@@ -119,7 +119,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/dm_sans"
-                android:paddingTop="@dimen/small_100"
+                android:layout_marginTop="@dimen/small_100"
                 android:text="5 Days ago"
                 android:textColor="@color/textLightGray"
                 android:textSize="@dimen/textNormal" />
