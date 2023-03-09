@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="normal_100">16dp</dimen>
+    <dimen name="small_125">12dp</dimen>
+    <dimen name="small_100">8dp</dimen>
+    <dimen name="textLarge">16sp</dimen>
+    <dimen name="textNormal">12sp</dimen>
+    <dimen name="largeRadius">100dp</dimen>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/normal_100"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/cardBackground"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/small_125"
+        android:paddingTop="@dimen/small_125"
+        android:paddingRight="@dimen/small_100"
+        android:paddingBottom="@dimen/small_125">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/photo" />
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans_bold"
+                android:paddingBottom="@dimen/small_100"
+                android:text="Ahmed hassan"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textLarge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans_medium"
+                android:paddingBottom="@dimen/small_100"
+                android:text="Engineer"
+                android:textColor="@color/darkerBlue"
+                android:textSize="@dimen/textNormal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/baseline_location_on_24"
+                android:fontFamily="@font/dm_sans_medium"
+                android:paddingBottom="@dimen/small_100"
+                android:text="UK "
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/textNormal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans"
+                    android:paddingRight="@dimen/small_100"
+                    android:text="(150 Reviews)"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/small_125" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/baseline_star_24"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="4.5 "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/small_125" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="38dp"
+                android:layout_height="20dp"
+                android:layout_gravity="right"
+                android:background="@drawable/hour_button"
+                android:fontFamily="@font/dm_sans"
+                android:text="@string/textButton"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textNormal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:fontFamily="@font/dm_sans_medium"
+                android:paddingTop="@dimen/small_100"
+                android:text="Russian"
+                android:textColor="@color/darkerBlue"
+                android:textSize="@dimen/textNormal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans"
+                android:paddingTop="@dimen/small_100"
+                android:text="5 Days ago"
+                android:textColor="@color/textLightGray"
+                android:textSize="@dimen/textNormal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
